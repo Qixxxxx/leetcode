@@ -15,6 +15,7 @@ class Solution:
         #         if nums[i] + nums[j] == target:
         #             return [i,j]
 
+        # 使用哈希表存储，用空间换时间
         index_map = {}
         for index, value in enumerate(nums):
             other_value = target - value
