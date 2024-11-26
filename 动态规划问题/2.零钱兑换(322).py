@@ -23,6 +23,8 @@ class Solution:
         #     return res if res != float("INF") else -1
         
         # return deal(amount)
+
+        # dp
         dp_list = [amount + 1 for i in range(amount + 1)]
         dp_list[0] = 0
         for i in range(len(dp_list)):
