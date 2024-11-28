@@ -22,11 +22,11 @@ class Solution:
         dfs([], nums)
         return result
 
-if __name__ == "__main__":
-    simple = Solution()
-    nums = [1,2,3]
-    result = simple.permute(nums)
-    print(result)
+# if __name__ == "__main__":
+#     simple = Solution()
+#     nums = [1,2,3]
+#     result = simple.permute(nums)
+#     print(result)
             
         
 # @lc code=end
